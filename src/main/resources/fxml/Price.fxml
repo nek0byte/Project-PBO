@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <!-- Header -->
+      <VBox spacing="18.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Choose Your Plan" alignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+               <padding>
+                  <Insets top="16.0" />
+               </padding>
+            </Label>
+            <!-- About-style centered bar with three cards -->
+            <HBox alignment="CENTER" spacing="24.0" VBox.vgrow="ALWAYS">
+         <children>
+            <!-- Special -->
+            <VBox spacing="12.0" maxWidth="380.0" prefWidth="360.0" HBox.hgrow="ALWAYS" style="-fx-background-color: linear-gradient(to bottom, rgba(255,255,255,0.98), rgba(250,250,250,0.95)); -fx-background-radius: 18; -fx-border-color: rgba(0,0,0,0.06); -fx-border-radius: 18; -fx-padding: 22;">
+               <effect>
+                  <DropShadow radius="12.0" offsetY="2.0">
+                     <color>
+                        <Color opacity="0.18" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Label text="Special" style="-fx-font-weight: bold; -fx-text-fill: #111;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label text="650k/month" style="-fx-font-weight: bold; -fx-text-fill: #2f7d32;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <VBox spacing="6.0" style="-fx-opacity: 0.9;">
+                     <children>
+                        <Label text="• Member bulanan" />
+                        <Label text="• Personal Trainer" />
+                        <Label text="• Semua Fasilitas" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+
+            <!-- Monthly -->
+            <VBox spacing="12.0" maxWidth="380.0" prefWidth="360.0" HBox.hgrow="ALWAYS" style="-fx-background-color: linear-gradient(to bottom, #fffbe6, #fff7cc); -fx-background-radius: 18; -fx-border-color: rgba(247,181,0,0.35); -fx-border-radius: 18; -fx-padding: 22;">
+               <effect>
+                  <DropShadow radius="12.0" offsetY="2.0">
+                     <color>
+                        <Color opacity="0.18" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Label text="POPULAR" style="-fx-background-color: #f7b500; -fx-text-fill: white; -fx-padding: 4 10 4 10; -fx-background-radius: 12;" />
+                  <Label text="Monthly" style="-fx-font-weight: bold; -fx-text-fill: #111;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label text="150k/month" style="-fx-font-weight: bold; -fx-text-fill: #c27803;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <VBox spacing="6.0" style="-fx-opacity: 0.95;">
+                     <children>
+                        <Label text="• Akses Unlimited" />
+                        <Label text="• Semua Fasilitas" />
+                        <Label text="• Program Diet" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+
+            <!-- Daily -->
+            <VBox spacing="12.0" maxWidth="380.0" prefWidth="360.0" HBox.hgrow="ALWAYS" style="-fx-background-color: linear-gradient(to bottom, rgba(255,255,255,0.98), rgba(250,250,250,0.95)); -fx-background-radius: 18; -fx-border-color: rgba(0,0,0,0.06); -fx-border-radius: 18; -fx-padding: 22;">
+               <effect>
+                  <DropShadow radius="12.0" offsetY="2.0">
+                     <color>
+                        <Color opacity="0.18" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Label text="Daily" style="-fx-font-weight: bold; -fx-text-fill: #111;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label text="10k/day" style="-fx-font-weight: bold; -fx-text-fill: #275d38;">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <VBox spacing="6.0" style="-fx-opacity: 0.9;">
+                     <children>
+                        <Label text="• Akses 1 Hari" />
+                        <Label text="• Semua Fasilitas" />
+                        <Label text="• Program Diet" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="24.0" left="24.0" right="24.0" top="24.0" />
+         </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

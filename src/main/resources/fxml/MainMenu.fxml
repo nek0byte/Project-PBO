@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="682.0" prefWidth="937.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.mainController">
+<AnchorPane prefHeight="682.0" prefWidth="937.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
    <BorderPane prefHeight="682.0" prefWidth="937.0" style="-fx-background-color: white; -fx-border-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
       <top>
          <AnchorPane AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
